@@ -18,7 +18,9 @@ function Music() {
 
 
   useEffect(() => {
-    const loadImages = async () => {
+const loadImages = async () => {
+  console.log("Loading images...");
+
       const loadedImages = await Promise.all(
         config.musicGallery
           .map(async (song, index) => {
@@ -33,7 +35,9 @@ function Music() {
                 top: song.top || "0%",
               };
             }
-            return null;
+            console.error(`Image not found: ${imagePath}`);
+            return null; 
+
           })
       );
 
