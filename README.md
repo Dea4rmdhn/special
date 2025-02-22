@@ -96,3 +96,5 @@ This project is designed to be **customizable and easy to use**! 🎉 Simply:
 
 For any questions, **open an issue** on the repository. 🚀
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e6e25ee1-541b-4303-8caa-ffd3c37e5656/deploy-status)](https://app.netlify.com/sites/comfy-empanada-2c0d32/deploys)
+
